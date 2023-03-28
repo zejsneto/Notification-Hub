@@ -4,7 +4,7 @@
 
 A website that simulates the notification sound of different apps, developed with HTML, CSS and JavaScript.. <br>
 
-Link: [View Demo](https://zejsneto.github.io/Parallax-Scrolling-Website/)
+Link: [View Demo](https://zejsneto.github.io/Notification-Hub/)
 
 ---
 

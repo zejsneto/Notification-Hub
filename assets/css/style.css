@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(33deg, #5a0979, #00d4ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 300px;
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    font-family: 'Raleway', cursive;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 20px;
+    font-family: 'Arial', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.container {
+    margin-top: 10px;
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.app-icons {
+    background: transparent;
+    border: none;
+    display: inline-block;
+}
+
+.app-icons img {
+    width: 150px;
+}
+
+.app-icons img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.app-icons:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container h3 {
+    color: #fff;
+    font-family: 'Arial', cursive;
+}

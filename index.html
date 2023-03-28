@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/logo.png">
+    <title>Notification Hub</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./assets/favicon/logo.png" alt="Notification-Hub-Logo" class="logo-img">
+            <h1 class="logo">Notification Hub</h1>
+        </a>
+        <h2 class="description">Click an app to simulate its sound!</h2>
+    </header>
+    <main>
+        <div class="container">
+            <button type="button" class="app-icons" id="teams" onclick="teams_sound.play()">
+                <img src="./assets/images/microsoft-teams.png" alt="Microsoft-Teams-Icon">
+                <h3 class="app-name">Microsoft Teams</h3>
+            </button>
+            <button type="button" class="app-icons" id="outlook" onclick="outlook_sound.play()">
+                <img src="./assets/images/outlook.png" alt="Outlook-Icon">
+                <h3 class="app-name">Outlook</h3>
+            </button>
+            <button type="button" class="app-icons" id="discord" onclick="discord_sound.play()">
+                <img src="./assets/images/discord.png" alt="Discord-Icon">
+                <h3 class="app-name">Discord</h3>
+            </button>
+            <button type="button" class="app-icons" id="skype" onclick="skype_sound.play()">
+                <img src="./assets/images/skype.png" alt="Skype-Icon">
+                <h3 class="app-name">Skype</h3>
+            </button>
+        </div>
+        <div class="container">
+            <button type="button" class="app-icons" id="google-calendar" onclick="google_calendar_sound.play()">
+                <img src="./assets/images/google-calendar.png" alt="Google-Calendar-Icon">
+                <h3 class="app-name">Google Calendar</h3>
+            </button>
+            <button type="button" class="app-icons" id="apple-mail" onclick="apple_mail_sound.play()">
+                <img src="./assets/images/apple-mail.png" alt="Apple-Mail-Icon">
+                <h3 class="app-name">Apple Mail</h3>
+            </button>
+            <button type="button" class="app-icons" id="imessage" onclick="imessage_sound.play()">
+                <img src="./assets/images/imessage.png" alt="iMessage-Icon">
+                <h3 class="app-name">iMessage</h3>
+            </button>
+            <button type="button" class="app-icons" id="vibrating-phone" onclick="vibrating_phone_sound.play()">
+                <img src="./assets/images/vibrating-phone.png" alt="Vibrating-Phone-Icon">
+                <h3 class="app-name">Vibrating Phone</h3>
+            </button>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -10,22 +10,24 @@
 body {
     height: 100vh;
     background: linear-gradient(33deg, #5a0979, #00d4ff);
-    display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 header {
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: inline;
-    justify-content: center;
+}
+
+.header-container {
     align-items: center;
+    justify-content: center;
     text-align: center;
-    z-index: 100;
+}
+
+main {
+    position: relative;
 }
 
 a {
@@ -48,9 +50,8 @@ a {
 }
 
 .description {
-    margin-top: 20px;
     font-family: 'Arial', cursive;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     color: aquamarine;
 }
@@ -63,7 +64,6 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .app-icons {
